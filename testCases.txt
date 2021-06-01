@@ -1,0 +1,82 @@
+TestCase# 01
+Steps:
+1. Go to https://www.saucedemo.com/
+2. Keep both username and password field blank
+3. Click on 'Login' button
+
+Expected Result: User will not be able to login and errror message shouald pop up
+Actual Result: Same as the expected result
+
+TestCase# 02
+Steps:
+1. Go to https://www.saucedemo.com/
+2. Keep username blank but provide valid password
+3. Click on 'Login' button
+
+Expected Result: User will not be able to login and error message should pop up
+Actual Result: Same as expected result
+
+TestCase# 03
+Steps:
+1. Go to https://www.saucedemo.com/
+2. Keep password field blank but provide valid username
+3. Click on 'Login' button
+
+Expected Result: User will not be able to login and error message should pop up
+Actual Result: Same as expected result
+
+TestCase# 04
+Steps:
+1. Go to https://www.saucedemo.com/
+2. Provide invalid username and password
+3. Click on 'Login' button
+
+Expected Result: User will not be able to login and error message should pop up
+Actual Result: Same as expected resul
+
+TestCase# 05
+Steps:
+1. Go to https://www.saucedemo.com/
+2. Provide '105 or 1=1' value as username and password
+3. Click on 'Login' button
+
+Expected Result: User will not be able login and error messsage should pop up
+Actual Result: Same as expected result
+
+TestCase# 06
+Steps:
+1. Go to https://www.saucedemo.com/
+2. Provide '" or ""="' value as username and password
+3. Click on 'Login' button
+
+Expected Result: User will not be able to login and error message should pop up
+Actual Result: Same as expected result
+
+TestCase# 07
+Steps:
+1. Go to https://www.saucedemo.com/
+2. Provide valid username and password
+3. Click on 'Login' button
+
+Expected Result: User will be able to login successfully
+Actual Result: Same as expected result
+
+TestCase# 08
+Steps:
+1. Go to https://www.saucedemo.com/
+2. Provide valid username and password
+3. Click on 'Login' button
+4. Click on back button of the browser
+5. Click on forward button of the browser
+
+Expected Result: User should automatically be logged out
+Actual Result: Still user is logged in and no warning or error message is popped up
+
+TestCase# 09
+Steps:
+1. Go to https://www.saucedemo.com/
+2. Provide very long username and password
+3. Click on 'Login' button
+
+Expected Result: There should be a fixed length of both username and password. If user exceeds the length there should be error message or warning message
+Actual Result: As the username and password are previously declared so could not verify about creating a new username and password with very long values. But there is a maximum of length of username and password
